@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URI;
 
-public class ChromeDriver implements DriverSource {
+public class FirefoxDriver implements DriverSource {
     @SneakyThrows
     @Override
     public WebDriver newDriver() {
@@ -19,8 +19,8 @@ public class ChromeDriver implements DriverSource {
         WebDriver driver;
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-        capabilities.setCapability("browserName", "chrome");
-        capabilities.setCapability("browserVersion", "100.0");
+        capabilities.setCapability("browserName", "firefox");
+        capabilities.setCapability("browserVersion", "85.0");
         driver = new RemoteWebDriver(URI.create(properties.getProperty("endpoint")).toURL(), capabilities);
         driver.manage().window().maximize();
         return driver;
