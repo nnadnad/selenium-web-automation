@@ -7,7 +7,7 @@ public class HomePageMethod extends PageObject {
     HomePage homePage = new HomePage();
 
     public void clickSignInBtn() {
-        homePage.signInBtn.click();
+        homePage.homeToSignIn.click();
         waitABit(5000);
     }
 }

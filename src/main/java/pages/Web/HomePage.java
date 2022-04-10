@@ -9,6 +9,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class HomePage extends PageObject {
 
     @FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
-    public WebElementFacade signInBtn;
+    public WebElementFacade homeToSignIn;
 
 }

@@ -20,7 +20,7 @@ public class FirefoxDriver implements DriverSource {
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
         capabilities.setCapability("browserName", "firefox");
-        capabilities.setCapability("browserVersion", "85.0");
+        capabilities.setCapability("browserVersion", "98.0");
         driver = new RemoteWebDriver(URI.create(properties.getProperty("endpoint")).toURL(), capabilities);
         driver.manage().window().maximize();
         return driver;
