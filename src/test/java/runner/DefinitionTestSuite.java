@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/",
-        tags = "@56",
+        tags = "@Web",
         glue = {"stepsDefinition"}
 //        junit = "--step-notifications"
 )

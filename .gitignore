@@ -4,5 +4,5 @@ target
 .classpath
 .factorypath
 .project
-chrome.properties
-firefox.properties
+src/test/resources/chrome.properties
+src/test/resources/firefox.properties

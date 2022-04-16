@@ -9,4 +9,3 @@
       Then I click continue button
       Then I enter valid password for sign in
       Then I click sign in button
-      And I will see page Top picks for you

@@ -28,6 +28,6 @@ public class ChromeDriver implements DriverSource {
 
     @Override
     public boolean takesScreenshots() {
-        return false;
+        return true;
     }
 }
